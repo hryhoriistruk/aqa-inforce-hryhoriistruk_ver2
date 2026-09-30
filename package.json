@@ -18,12 +18,12 @@
     "npm": ">=9"
   },
   "scripts": {
-    "cy:open": "../aqa-inforce-hryhoriistruk_ver2/cypress open",
-    "cy:run": "../aqa-inforce-hryhoriistruk_ver2/cypress run",
-    "test": "../aqa-inforce-hryhoriistruk_ver2/cypress run",
-    "test:headed": "../aqa-inforce-hryhoriistruk_ver2/cypress run --headed",
-    "test:ui": "../aqa-inforce-hryhoriistruk_ver2/cypress run --spec cypress/e2e/user-spec.cy.js",
-    "test:api": "../aqa-inforce-hryhoriistruk_ver2/cypress run --spec cypress/e2e/admin-spec.cy.js",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:ui": "cypress run --spec cypress/e2e/user-spec.cy.js",
+    "test:api": "cypress run --spec cypress/e2e/admin-spec.cy.js",
     "lint:py": "cd python && flake8 . && black --check . && isort --check-only .",
     "format:py": "cd python && black . && isort .",
     "test:py": "cd python && pytest"
