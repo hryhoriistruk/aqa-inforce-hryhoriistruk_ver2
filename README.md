@@ -1,7 +1,7 @@
 # aqa-inforce-hryhoriistruk
 
 
-[![Cypress CI](https://github.com/hryhoriistruk/aqa-inforce-hryhoriistruk/actions/workflows/cypress-ci.yml/badge.svg)](https://github.com/hryhoriistruk/aqa-inforce-hryhoriistruk/actions/workflows/cypress-ci.yml)
+
 
 Automated tests for <https://automationintesting.online/> (Restful-booker platform):
 UI tests for the User App (room booking) and API tests for the Admin / User flows.
