@@ -1,4 +1,4 @@
-# aqa-inforce-hryhoriistruk
+# aqa-inforce-hryhoriistruk_ver2
 
 
 
@@ -70,7 +70,7 @@ Requirements: Python 3.9+ (CI runs the suite on 3.9, 3.10, 3.11 and 3.12).
 ## Repository structure
 
 ```
-aqa-inforce-hryhoriistruk
+aqa-inforce-hryhoriistruk_ver2
 ├── .github
 │   └── workflows
 │       ├── python-ci.yml        
