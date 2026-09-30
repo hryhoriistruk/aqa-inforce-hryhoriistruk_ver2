@@ -1,7 +1,7 @@
 {
   "name": "aqa-inforce-hryhoriistruk",
   "version": "1.0.0",
-  "description": "Cypress UI + API tests for https://automationintesting.online/ (Playwright/pytest version in ./python)",
+  "description": "Cypress UI + API tests for https://automationintesting.online/",
   "private": true,
   "license": "MIT",
   "author": "Hryhorii Struk",
@@ -9,8 +9,6 @@
     "qa",
     "automation",
     "cypress",
-    "playwright",
-    "pytest",
     "restful-booker"
   ],
   "engines": {
@@ -23,10 +21,7 @@
     "test": "cypress run",
     "test:headed": "cypress run --headed",
     "test:ui": "cypress run --spec cypress/e2e/user-spec.cy.js",
-    "test:api": "cypress run --spec cypress/e2e/admin-spec.cy.js",
-    "lint:py": "cd python && flake8 . && black --check . && isort --check-only .",
-    "format:py": "cd python && black . && isort .",
-    "test:py": "cd python && pytest"
+    "test:api": "cypress run --spec cypress/e2e/admin-spec.cy.js"
   },
   "devDependencies": {
     "cypress": "^13.15.0"
