@@ -91,10 +91,4 @@ aqa-inforce-hryhoriistruk_ver2
 - API tests accept both response codes where the public gateway and the room service differ
   (200/202, 401/403); see OBS-03 in `../aqa-inforce-hryhoriistruk_ver2/test-cases.txt`.
 
-## CI
 
-GitHub Actions, triggered on push to `main`, on pull requests to
-`main`, and manually via `workflow_dispatch`:
-
-- **`cypress-ci.yml`** — `npm ci` + Cypress run in Chrome; screenshots are uploaded as an
-  artifact on failure.
