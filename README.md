@@ -59,9 +59,6 @@ CYPRESS_RUN_KNOWN_BUGS=true npm run test:ui
 Base URL and admin credentials are set in `../aqa-inforce-hryhoriistruk_ver2/cypress.config.js` and can be overridden, e.g.
 `CYPRESS_BASE_URL=... CYPRESS_apiUrl=... npm test`.
 
-## Python (Playwright + pytest)
-
-Requirements: Python 3.9+ (CI runs the suite on 3.9, 3.10, 3.11 and 3.12).
 
 
 
