@@ -67,8 +67,7 @@ Base URL and admin credentials are set in `../aqa-inforce-hryhoriistruk_ver2/cyp
 ## Repository structure
 
 ```
-aqa-inforce-hryhoriistruk_ver2
-├     
+aqa-inforce-hryhoriistruk_ver2   
 ├── cypress
 │   ├── downloads                
 │   ├── e2e
@@ -76,9 +75,6 @@ aqa-inforce-hryhoriistruk_ver2
 │   │   └── admin-spec.cy.js     
 │   ├── fixtures                 
 │   └── support                  
-├
-├
-├
 ├── test-cases.txt
 ├── cypress.config.js
 ├── package.json
