@@ -68,10 +68,7 @@ Base URL and admin credentials are set in `../aqa-inforce-hryhoriistruk_ver2/cyp
 
 ```
 aqa-inforce-hryhoriistruk_ver2
-├── .github
-│   └── workflows
-│       ├── python-ci.yml        
-│       └── cypress-ci.yml       
+├     
 ├── cypress
 │   ├── downloads                
 │   ├── e2e
